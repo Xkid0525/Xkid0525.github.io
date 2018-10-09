@@ -1,0 +1,12 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: Muli;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.clearfix{
+	overflow: auto;
+}
+

@@ -5,7 +5,7 @@ header
 }
 .head
 {
-	width:1634px;
+	max-width:1634px;
 	
 	margin: 0 auto;
 
@@ -17,7 +17,7 @@ header
 }
 .topmost-ul
 {
-	width:1530px; 
+	max-width:1530px; 
 	margin:0 auto;
 	list-style: none;
 	padding-top: 10px;
@@ -197,13 +197,15 @@ header
 
 }
 .subscribe{
-	width: 279px;
+	    background: black;
+    color: white;
+    width: 279px;
     display: inline;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 27px;
+    padding-left: 20px;
     letter-spacing: 1px;
-    margin-left: 26px;
+    margin-left: 16px;
     margin-top: 6px;
 }
 .main-body-container
@@ -215,7 +217,7 @@ header
 .mainbody-div1
 {
 
-	overflow: auto;
+	overflow: hidden;
 	float:left;
 	width: 1140px;
 
@@ -357,17 +359,52 @@ header
 .blog-bottom-list-ul
 {
 	list-style: none;
+	    padding-top: 82px;
 
 }
 .blog-bottom-list
 {
 	float: left;
+	    padding-left: 58px;
+	    padding-right: 36px;
 
+}
+.blog-bottom-list-like
+{
+	float:left;
+}
+.comment-image
+{
+	padding-right:8px;
+}
+.comment-no
+{
+	padding-right:8px;
+}
+.like-image
+{
+	padding-right:6px;
+}
+.like-no
+{
+	padding-right:10px;
+	padding-left: 7px;
 }
 .blog-bottom-list2
 {
 	float: left;
+	padding-left: 159px;
 
+}
+.avg-percent{
+padding-left: 17px;
+}
+.avg-percent-star{
+    padding-left: 15px;
+}
+.avg-percent-star img
+{
+	padding-right: 4px;
 }
 .blog-bottom-list3
 {
@@ -377,19 +414,23 @@ header
 .socialBlog
 {
 	list-style: none;
+	    padding-right: 58px;
 }
 .socialList
 {
 	display: inline;
+	padding-left: 31px;
 }
 .buttons-div
 {
 	display: inline-block;
+	    padding-top: 85px;
 
 }
 .michell-div
 {
 	overflow:auto;
+	    padding-top: 54px;
 
 }
 .backB
@@ -423,18 +464,24 @@ header
 }
 .nextText
 {
-	padding-left: 245px;
+	    padding-left: 211px;
+    padding-right: 23px;
 }
 .buttonsP
 {
-	margin-top: 71px;
+	    margin-top: 65px;
     margin-left: 191px;
+    padding-right: 20px;
 }
 .buttonsN
 {
-	margin-top: 71px;
+	margin-top: 65px;
     margin-right: 191px;
    
+}
+.author-div
+{
+	overflow: auto;
 }
 
 .author-pic{
@@ -442,11 +489,14 @@ header
 }
 .author-top
 {
-	float:right;
+	float: left;
+    width: 885px;
+    margin-left: 27px;
+    padding-top: 41px;
 }
 .authorTitle
 {
-	
+	letter-spacing: 3px;
 
 }
 .authorname
@@ -461,8 +511,49 @@ header
 
 .authorText
 {
-	padding-top: 20px;
+	padding-top: 47px;
+    letter-spacing: 2px;
+    line-height: 29px;
 
+}
+.bottom-buttons{
+padding-top: 38px;
+}
+.bottom-buttons ul{
+	list-style: none;
+}
+.bottom-buttons ul li{
+	display: inline-block;
+	    width: 230px;
+    padding-right: 52px;
+}
+.bottom-button1
+{
+	width: 58px;
+	height: 48px;
+	float:left;
+
+}
+.bottom-button1 img
+{
+	margin-left: 23px;
+}
+
+.bottom-button2
+{
+	float:left;
+
+}
+.bottom-button2 span
+{
+	padding-left:5px;
+}
+
+.reccomended-post
+{
+	padding-top: 84px;
+    margin-left: 29px;
+    margin-right: 34px;
 }
 .reccomend
 {
@@ -477,6 +568,7 @@ header
 .recommended-title-container
 {
 	overflow:auto;
+	    padding-bottom: 25px;
 	
 }
 .reccomended-post-slider
@@ -549,8 +641,9 @@ tr
 }
 td
 {
-    font-size: 16px;
-        padding-top: 30px;
+    font-size: 17 px;
+        padding-top: 33px;
+
 
 }
 th
@@ -560,11 +653,11 @@ th
 }
 .img-below-table
 {
-	padding-top: 52px;
+	padding-top: 57px;
 }
 .latestpost-title
 {
-padding-top: 37px;
+padding-top: 33px;
     font-size: 19px;
     text-align: center;
 }
@@ -647,64 +740,123 @@ overflow: auto;
 
 .footer-div1
 {
-	float:left;
-	width: 360px;
+	float: left;
+    width: 360px;
+    margin-left: 52px;
 
 }
 .footer-div2
 {
-	float: left;
-	width: 360px;
+	padding-left: 31px;
+    float: left;
+    width: 363px;
 	
 }
 .footer-div2 ul
 {
-	list-style-image: url("twitterBlog.png"); 
+	padding-top: 36px;
+    padding-left: 22px;
+    list-style-image: url('../twitterBlog.png'); 
+}
+.tweet{
+    font-size: 16px;
+}
+.tweet-body
+{
+	    font-family: hind;
+    font-size: 17px;
+    padding-top: 11px;
+    line-height: 29px;
+    padding-bottom: 25px;
 }
 .footer-div3
 {
-	float: right;
-	width: 360px;
+	float: left;
+    width: 365px;
+    padding-left: 26px;
 	
 }
 .footer-div4
 {
 	float: right;
-	width: 360px;
+    width: 360px;
+    margin-right: 27px;
 	
+}
+.footer-div-4-div1
+{
+	    padding-top: 15px;
+}
+.footer-div-4-div2
+{
+padding-top: 29px;
 }
 .footer-head
 {
-font-family: Montserrat;
+text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 2px;
 
 }
 .footer-body
 {
 	font-family: hind;
-	font-size: 15px;
-
-
+    font-size: 17px;
+    padding-top: 33px;
+        padding-bottom: 5px;
 }
 .footer-body-right-title
 {
 	font-family: open sans;
-
+    padding-top: 14px;
+    line-height: 24px;
+    font-size: 15px;
 
 }
 .footer-body-right-body
 {
 	font-family: open sans;
+    padding-top: 14px;
+    line-height: 24px;
+    font-size: 15px;
 }
 .footer-last
 {
 	font-family: hind;
+    margin-top: 44px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background: black;
 
 }
 .footer-foot{
-	overflow: auto;
-	width:1634px;
-	margin:0 auto;
-	margin-top: 203px;
-	    background: black;
+	overflow: hidden;
+    width: 1634px;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 410px;
+    background: #333333;
     color: white;
+}
+.footer-insta-pics
+{
+	padding-top: 37px;
+
+}
+.footer-insta-pics ul
+{
+	list-style: none;
+}
+.footer-insta-pics ul li
+{
+	display: inline-block;
+}
+.footer-container1
+{
+	margin-top: 55px;
+    overflow: auto;
 }

@@ -7,6 +7,7 @@ var animateRef;
 var numOfImages;
 var refSlideTimer;
 var stepsToTake=1;
+
 var currentIndex=0;
 var imageUlShifted=0;
 var animationActive=0;  //tells if the animation is active or not

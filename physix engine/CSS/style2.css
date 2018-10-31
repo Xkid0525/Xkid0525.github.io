@@ -1,0 +1,69 @@
+.myCanvas
+{
+    margin-left: 15%;    
+}
+.myCanvas1
+{
+    margin-left: 15%;
+}
+.myCanvas2
+{
+    margin-left: 15%;
+    
+}
+.myCanvas3
+{
+    margin-left: 15%;
+    
+}
+.myCanvas4
+{
+    margin-left: 15%;
+    
+}
+body
+{
+	background: gray;
+}
+.canvas-container
+{
+	width:100%;
+    
+    margin: 0 auto;
+}
+.text-holder
+{
+	width: 70%;
+margin: 0 auto;
+	text-align: center;
+	background: darkgray;
+
+}
+
+
+.text-holder h2
+{
+	color:white;
+	background: black;
+}
+
+.text-holder p
+{
+	color:blue;
+}
+.text-holder ul
+{
+	list-style: none;
+}
+
+.text-holder ul li
+{
+	color:green;
+}
+
+h1
+{
+	/*position: relative;
+*/	text-align: center;
+}
+

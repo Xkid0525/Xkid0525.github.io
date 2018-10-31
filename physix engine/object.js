@@ -334,7 +334,7 @@ class World extends ObjectMaker
         {
             for (var obj in objectArray) {
                 if (objectArray[obj].onGround() == false) {
-                    super.gravityAdd(objectArray[obj],0.29);
+                    super.gravityAdd(objectArray[obj],0.58);
                     super.bounceAdd(objectArray[obj]);
                 }   
             }
@@ -574,6 +574,11 @@ class World extends ObjectMaker
             {
                 this.objArray[obj].x += this.objArray[obj].dx;
                 this.objArray[obj].y += this.objArray[obj].dy;
+                if(gravitySwitch==false && turned==false)
+                {
+                this.objArray[obj].vdx=this.objArray[obj].dx;
+                this.objArray[obj].vdy=this.objArray[obj].dy;
+                }
             }    
         }
 
@@ -600,7 +605,7 @@ class World extends ObjectMaker
                     for (let obj in this.objArray) 
                     {
                         this.objArray[obj].dx = this.objArray[obj].vdx;
-                        this.objArray[obj].vy = this.objArray[obj].vdy;
+                        this.objArray[obj].dy = this.objArray[obj].vdy;
                     }
                     turned=false;
                 }
@@ -611,14 +616,15 @@ class World extends ObjectMaker
                     turned=true;
                 }
                 this.moveObjects();
-            }
+                for(let obj in this.objArray)
+                {
+                    this.wallCollision(this.objArray[obj]);
+                }
+                
+                this.ballCollision(this.objArray);
+                }
             this.drawObjects();
-            for(let obj in this.objArray)
-            {
-                this.wallCollision(this.objArray[obj]);
-            }
             
-            this.ballCollision(this.objArray);
             requestAnimationFrame(this.draw.bind(this));   
         }
         

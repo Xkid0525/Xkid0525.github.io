@@ -1,10 +1,20 @@
-.myCanvas
-{
-    float:left;
-    
-}
+
 .canvas-container
 {
     
     margin: 0 auto;
+}
+body
+{
+	background: gray;
+}
+.text-holder h2
+{
+	color:white;
+	background: black;
+}
+
+.text-holder p
+{
+	color:blue;
 }

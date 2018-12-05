@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="CSS/layout.css">
+    <link rel="stylesheet" type="text/css" href="CSS/layout-min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+        <script type="text/javascript">
+        function first()
+        {
+            page1=document.getElementsByClassName("page1")[0];
+            body=document.getElementsByTagName("body")[0];
+            if(window.innerWidth<600)
+            {
+                console.log(window.innerHeight);
+                page1.clientHeight=window.innerHeight;
+                console.log(page1.clientHeight);
+            }
+        }
+            function init()
+            {
+                body=document.getElementsByClassName("page-4-half1")[0];
+            inTouchImg=document.getElementsByClassName("in-touch-img")[0];
+            getInTouch=document.getElementsByClassName("get-in-touch")[0];
+            getInTouch.style.height=inTouchImg.height+"px";
+            if(body.clientWidth<600)
+                {
+            getInTouch.clientWidth=body.clientWidth-2*getInTouch.offsetLeft;
+            inTouchImg.width=body.clientWidth-2*getInTouch.offsetLeft;
+            console.log(body.clientWidth-getInTouch.offsetLeft);
+                }
+
+            }
+            function init2()
+            {
+            inpImg=document.getElementsByClassName("form-input-img");
+            backImg=document.getElementsByClassName("form-label-img");
+            label=document.getElementsByClassName("form-label");
+            label1=document.getElementsByClassName("form-label1")[0];
+            inp=document.getElementsByClassName("form-input1");
+            
+
+            body=document.getElementsByTagName("body")[0];
+            console.log(body);
+            if(body.clientWidth<600)
+                {
+            for(var j=0;j<backImg.length;j++)
+            {
+                if(j<label.length)
+                {
+                backImg[j].width=body.clientWidth-label[j].offsetLeft;
+                console.log(backImg);}
+                else
+                backImg[j].width=body.clientWidth-label1.offsetLeft;
+
+            }
+                }
+            for(var i=0;i<inpImg.length;i++)
+            {
+                var flag=0;
+                console.log(body.clientWidth);
+                if(i>=label.length)
+                {
+                    
+                    var width=backImg[0].clientWidth - label1.clientWidth;
+                    flag=1;
+                }
+                else
+                var width=backImg[0].clientWidth - label[i].clientWidth;
+                // width-=20;
+                // var height=width*12.34/100;
+                if(body.clientWidth<600)
+                {
+                    
+                    if(flag==1)
+                    {
+                        width=body.clientWidth- label1.clientWidth-label1.offsetLeft;
+                    }
+                    else
+                    {
+                    width=body.clientWidth- label[i].clientWidth-label[i].offsetLeft;
+                    
+                    }
+                    
+
+
+                }
+                else{
+
+                if(i==inpImg.length-1)
+                inpImg[i].style.width=width-25+"px";
+                else
+                inpImg[i].style.width=width-10+"px";
+                if(i<inp.length)
+                {
+                    inp[i].style.width=width-40+"px";
+                }
+
+                console.log("hello"+ inpImg[i].style.width);
+                // inpImg[i].style.height=height+"px";
+                // backImg[i].style.height="8.81%";
+        
+        
+            }
+            }
+            }
+           
+        
+            
+        
+            
+            </script>
+    <div class="page1">
+        <div class="top">
+            
+            <!-- social icons -->
+            <div class="social-icons-div">
+                <img class="facebook" src="Images/facebook.png">
+                <img class="other-icon" src="Images/img-circ.png">
+            </div>
+            <!-- text and packets pics-->
+            <div class="top-content-div">
+                <span class="top-content-text">
+                    YOUR COMPLETE COFFEE BUSINESS SOLUTION
+                </span>
+                <div class="top-content-images">
+                    <img src="Images/OHS.png" class="ohs">
+                    <img src="Images/pkts-coffee.png" class="packets">
+                </div>
+                
+            </div>
+        </div>
+        <div>
+        <div class="scroller-bar">
+            <img class="circle-img" src="Images/semi-circle-arrow.png">
+            <span class="scroll-text">SCROLL</span>
+        </div>
+        <script>
+        first();
+        </script>
+    </div>
+    </div>
+    
+    <!-- page2 -->
+    <div class="page2">
+        <!-- page2-content -->
+        <div class="page2-content">
+            <div class="title-container">
+            <div class="content-title">
+                <img class="content-title-img" src="Images/title-product.png">
+                <span class="content-title-text">TRADITIONAL MACHINES</span>
+
+            </div>
+            <div class="content-discription">
+                <div class="content-discription-top">
+                    <img class="content-discription-title-img" src="Images/content-title.png">
+                    <span class="content-discription-title-text">
+                        M27 RE
+                    </span>
+                    <span class="content-discription-text">
+                        ELEGANT AND VERSATILE MACHINE, THAT'S EASY TO USE, ADJUST AND MAINTAIN
+                    </span>
+                </div>
+                <div class="content-discription-buttons">
+                    <button class="button1">
+                    DISCOVER
+                    </button>
+                    <button class="button2">
+                    WHERE TO BUY
+                    </button>
+                </div>
+
+            </div>
+            </div>
+            <img class="content-machine" src="Images/coffee-machine4.png">
+            <img class="content-beans">
+
+        </div>
+        <!-- navigation dots -->
+        <div>
+
+        </div>
+
+    </div>
+    <!-- page3 -->
+    <div class="page3">
+        <div class="content-discription1">
+            <div class="content-discription-top1">
+                <img class="content-discription-title-img1" src="Images/content-title.png">
+                <span class="content-discription-title-text1">
+                    ACCESSORIES
+                </span>
+                <span class="content-discription-text1">
+                   BEST CHOICE FOR CULINARY ART AND CRAFT
+                </span>
+            </div>
+            <div class="content-discription-buttons1">
+                <button class="button1">
+                DISCOVER
+                </button>
+                <button class="button2">
+                WHERE TO BUY
+                </button>
+            </div>
+
+        </div>
+
+        
+        <img src="Images/coffee-mug.png" class="coffee-mug">
+    </div>
+    <!-- page4 -->
+    <div class="page4">
+        <div class="page-4-half1">
+            <div class="get-in-touch">
+                <img class="in-touch-img" src="Images/get-in-touch.png">
+                <span class="in-touch-text1">LET'S GET IN TOUCH</span>
+                <span class="in-touch-text2">ARE YOU LOOKING FOR A HOSPITALITY COFFEE SOLUTION?</span>
+
+            </div>
+            <script>init();</script>
+            <div class="form-feedback">
+                <form>
+                    <div class="form-name-div">
+                        <img src="Images/form-label.png" class="form-label-img">
+                        <div class="form-label">YOUR NAME</div>
+                        <img src="Images/form-input.png" class="form-input-img">
+                        <input type="text" class="form-input1">
+                    </div>
+
+                    <div class="form-contact-no-div">
+                        <img src="Images/form-label.png" class="form-label-img">
+                        <div class="form-label">YOUR CONTACT NUMBER</div>
+                        <img src="Images/form-input.png" class="form-input-img">
+                        <input type="text" class="form-input1">
+                    </div>
+
+                    <div class="form-email-div">
+                        <img src="Images/form-label.png" class="form-label-img">
+                        <div class="form-label">YOUR EMAIL ADDRESS</div>
+                        <img src="Images/form-input.png" class="form-input-img">
+                        <input type="text" class="form-input1">
+                    </div>
+                    
+                    <div class="form-message-div">
+                        
+                        <span class="form-label1">YOUR MESSAGE HERE</span>
+                        <img src="Images/form-input.png" class="form-input-img" >
+                        
+                  
+                        <textarea class="text-message">
+
+                        </textarea>
+                    </div>
+                    <button class="button1" id="submiter">
+                        SUBMIT
+                    </button>
+                </form>
+                <script>init2();</script>
+            </div>
+        </div>
+        <div class="page-4-half2">
+            <div class="part-description">
+                    Whether you’re starting a cafe, running an existing hospitality business or looking for anything coffee, we can help! Just drop your information and one of our friendly coffee consultants will give you a call today!    
+            </div>
+            <img class="map-image" src="Images/map.png">
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

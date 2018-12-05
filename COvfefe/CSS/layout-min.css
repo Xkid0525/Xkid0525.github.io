@@ -1,0 +1,492 @@
+@media only screen and (max-width: 412px) {
+    body{
+        width:100%;
+    }
+        .page1
+    {
+    width:100%;
+    height: 770px;
+    
+    }
+        .top
+        {
+            position:relative;
+            background: url("../Images/coffee_background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:100%;
+            height:724px;
+            overflow:hidden;
+        }
+            .social-icons-div
+            {
+                padding-top:50px;
+                overflow:auto;
+    
+            }
+                .facebook
+                {
+                    float: left;
+                    padding-left:8.05%;
+    
+                }
+                .other-icon
+                {
+                    float:right;
+                    padding-right:8.05%;
+    
+                }
+            .top-content-div
+            {
+                text-align: right;
+            }
+                .top-content-text
+                {
+                    position: relative;
+                    right: 7.14%;
+                    top: 33px;
+                    font-size: 25px;
+    
+                }
+                .top-content-images
+                {
+                    
+    
+                }
+                    .ohs
+                    {
+                        padding-top:110px;
+                        padding-left:18.44%;
+    
+                        float:left;
+                        
+                    }
+                    .packets
+                    {
+                        float: left;
+                        padding-left: 17.20%;
+                        padding-top:60px;
+    
+                    }
+                
+        .circle-img
+        {
+            position:relative;
+            top:-97px;
+            
+    
+        }     
+            .scroll-text
+            {
+                display: block;
+                position:relative;
+                top:-130px;
+                width: 100%;
+                text-align: center;
+                
+    
+            }
+        .scroller-bar
+        {
+            background-color: #993333;
+            width:100%;
+            height:46px;
+            text-align: center;
+        }
+    
+    .page2
+    {
+        background: url(../Images/page2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 724px;
+        overflow: hidden;
+    
+    }
+    .page2-content
+    {
+    
+    }
+    .title-container
+    {
+        position: relative;
+        width: 100%;
+    }
+    .content-title
+    {
+        position: relative;
+    left: -5.9%;
+    top: -61px;
+    
+    }
+    .content-title-img
+    {
+        position: absolute;
+    top: 75px;
+    left: 7.69%;
+    
+    }
+    .content-title-text
+    {
+        position: relative;
+    display: inline-block;
+    top: 75px;
+    left: 7.69%;
+    color: #993333;
+    width: 69.11%;
+    font-size: 34px;
+    padding-left: 5.18%;
+    padding-top: 16px;
+    font-weight: bolder;
+    
+    
+    }
+    .content-discription
+    {
+        position: relative;
+        top: -23px;
+        width: 100%;
+    
+    }
+    .content-discription-top
+    {
+        position: relative;
+        right: -3.88%;
+    }
+    .content-discription-title-img
+    {
+        position: absolute;
+    top: 75px;
+    width: 90%;
+    height: 175px;
+    }
+    .content-discription-title-text
+    {
+        position: relative;
+    top: 95px;
+    font-size: 34px;
+    padding-left: 3.72%;
+    }
+    .content-discription-text
+    {
+        position: relative;
+        display: inline-block;
+        top: 125px;
+        padding-left: 3.72%;
+        width: 320px;
+        font-size: 20px;
+    }
+    .content-discription-buttons
+    {
+        position: relative;
+        top: 165px;
+        right: 9.5%;
+        float: right;
+        width: 72.58%;
+    }
+    .content-discription1
+    {
+        position:relative;
+        float: right;
+        top: 75px;
+        
+    
+    }
+    .content-discription-top1
+    {
+        position: relative;
+        
+    }
+    .content-discription-title-img1
+    {
+        position: absolute;
+        top: -20px;
+        left: -16%;
+        width: 94.93%;
+        height: 154px;
+    
+    
+    }
+    .content-discription-title-text1
+    {
+        position: relative;
+    top: -2px;
+    font-size: 25px;
+    left: -17.33%;
+    }
+    .content-discription-text1
+    {
+        position: relative;
+        display: inline-block;
+        top: 40px;
+        left: -15.466%;
+        padding-left: 3.14%;
+        width: 82.66%;
+        font-size: 21px;
+    }
+    .content-discription-buttons1
+    {
+        position: relative;
+        top: 74px;
+        right: 8.53%;
+        float: right;
+        width: 74.97%;
+    }
+    .button1{
+        background: url("../Images/content-button.png");
+        float:left;
+        border:#993333;
+        font-size: 20px;
+        text-align: center;
+        width: 206px;
+        height: 55px;
+    }
+    .button2{
+        background: url("../Images/content-button.png");
+        float: right;
+        
+        border:#993333;
+        font-size: 20px;
+        text-align: center;
+        width: 206px;
+        height: 55px;
+    }
+    .content-discription-buttons-img
+    {
+        position:absolute;
+    
+     
+    }
+    .content-discription-buttons-text
+    {
+        
+        position: relative;
+        font-size: 20px;
+        top: 15px;
+        left: 48px;
+    
+    
+    }
+    .content-discription-buttons-img2
+    {
+        position:absolute;
+     
+    }
+    .content-discription-buttons-text2
+    {
+        position:relative;
+        font-size: 20px;
+        top: 15px;
+        left: 24px;
+        
+    }
+    .content-machine
+    {
+        position: relative;
+        top: 175px;
+        left: 20px;
+        width: 345px;
+    }
+    .content-beans
+    {
+    
+    }
+    
+    .page3
+    {
+        background: url("../Images/page2.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:100%;
+            height:724px;
+            overflow:hidden;
+    }
+    .coffee-mug
+    {
+        position: relative;
+        top: 205px;
+        left: 9.26%;
+        width: 325px;
+    }
+    
+    .page4
+    {
+        background: url("../Images/page4.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:100%;
+            height:745px;
+            overflow:hidden;
+    
+    
+    }
+    .page4::after{
+        content: "";
+        display: table;
+        clear:both;
+    }
+    
+    .page-4-half1
+    {
+        
+        overflow: hidden;
+        
+        /* padding-right:35px;
+        padding-left:11.11%;; */
+        /* display:inline-block; */
+    
+    }
+    /* 601
+    35
+    428 */
+    .in-touch-img
+    {
+        position: absolute;
+        height: 120px;
+    
+    }
+    .get-in-touch
+    {
+        padding-top: 35px;
+    
+    }
+    
+    .in-touch-text1
+    {
+        position: relative;
+    top: 15px;
+    left: 2.5%;
+    font-size: 19px;
+    display: block;
+    }
+    
+    .in-touch-text2
+    {
+        position: relative;
+    top: 32px;
+    left: 2.5%;
+    font-size: 19px;
+    width: 84%;
+    display: block;
+    }
+    
+    .form-feedback
+    {
+        padding-top:25px;
+    }
+    
+    .form-name-div
+    {
+        width: 100%;
+    
+    }
+    .form-contact-no-div
+    {
+        width: 100%;
+    
+    }
+    .form-email-div
+    {
+        width: 100%;
+    }
+    .form-message-div
+    {
+        background: url(../Images/textbox1.png);
+        background-repeat: no-repeat;
+        position: relative;
+        height: 215px;
+        width: 100%;
+    
+    }
+    .form-label-img
+    {
+        
+    }
+    .form-label
+    {
+        display: block;
+        top: 5px;
+        
+        /* background:url("../Images/form-label.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+         */
+    }
+    .form-label1
+    {
+        display: block;
+        top: 5px;
+        
+        /* background:url("../Images/form-label.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+         */
+    }
+   
+    
+    .form-input1
+    {
+        display: block;
+        top: -31px;
+        left: 1.33%;
+    
+    }
+    .form-input-img
+    {
+        display: block;
+        padding-top: 5px;
+        padding-left: 1.33%;
+        
+    }
+    
+    .form-input2
+    {
+        position: relative;
+        border:none;
+        margin-top:40px;
+        line-height: 32px;
+        margin-left:1.63%;
+        
+        
+    
+    }
+    .text-message
+    {
+        height: 162px;
+        position: relative;
+        left: 2.8%;
+        border: none;
+        top: 11px;
+        width: 87.5%;
+        
+    }
+    
+    .page-4-half2
+    {
+        display: none;
+    }
+    .part-description
+    {
+        background-color: #993333;
+        color: white;
+        padding: 10px;
+        margin-top: 95px;
+        margin-left: 3.16%;
+        width: 99%;
+        text-transform: uppercase;
+        text-align: justify;
+    
+    }
+    .map-image
+    {
+        padding-top: 10px;
+    
+    }
+    
+    /* 
+    ns1.digitalocean.com
+    ns2.digitalocean.com */
+    
+}
+    
